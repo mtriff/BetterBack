@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "BetterBack",
+	"description": "Allows navigation via a tree, instead of the standard list",
+	"version":"0.1",
+	"permissions": [
+		"webNavigation", "contextMenus", "tabs", "history"
+	],
+	"background": {
+		"persistent": false,
+		"page": "background.html"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
